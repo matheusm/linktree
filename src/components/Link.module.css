@@ -1,0 +1,26 @@
+.link {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+
+  transition: all 0.2s ease-in;
+
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.link img {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+}
+
+.link:hover {
+  background-color: aliceblue;
+  color: var(--background);
+}

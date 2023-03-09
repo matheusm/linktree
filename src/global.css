@@ -1,0 +1,18 @@
+:root {
+  --background: #221e21;
+  --text-base: #e3e3e3;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-base);
+  font-size: 1rem;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width:768px) {
+  * {
+    font-size: 1.5rem;
+  }
+}
